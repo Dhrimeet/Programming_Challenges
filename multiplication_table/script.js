@@ -5,8 +5,8 @@ var num= document.getElementById('num').value;
 if (num>0) {
    for (i=1;i<=12;i++) {
      mul=num*i;
-     document.write("3*"+i+"=");
-     document.write(mul);
+     document.write(num+"x"+i+"="+mul);
+     //document.write(mul);//
      document.write("<br>");
     }
  }
